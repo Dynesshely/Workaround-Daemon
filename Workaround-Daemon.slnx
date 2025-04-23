@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Workaround.Utils/">
+    <Project Path="Workaround.Utils/Killer.WindowsAd/Killer.WindowsAd.csproj" />
+  </Folder>
+  <Project Path="Workaround.Contract/Workaround.Contract.csproj" />
+  <Project Path="Workaround.Shared/Workaround.Shared.csproj" />
+  <Project Path="Workaround/Workaround.csproj" />
+  <Folder Name="/Solution Files/">
+    <File Path=".csharpierrc" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Packages.props" />
+    <File Path="LICENSE" />
+    <File Path="nuget.config" />
+    <File Path="README.md" />
+    <File Path="test-workaround.ps1" />
+  </Folder>
+</Solution>

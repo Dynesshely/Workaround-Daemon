@@ -1,0 +1,17 @@
+<Application x:Class="Workaround.App"
+             xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:Workaround"
+             xmlns:themes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
+             RequestedThemeVariant="Default">
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <!--<FluentTheme/>-->
+        <themes:MaterialTheme BaseTheme="Dark"
+                              PrimaryColor="Purple"
+                              SecondaryColor="Lime"/>
+    </Application.Styles>
+</Application>
